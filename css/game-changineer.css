@@ -99,7 +99,7 @@ height: 100vh;
 	padding: 0;
 }
 .gap-one {
-	height: 7vw;
+	height: 9vw;
 }
 .graphics-text-one {
 	text-align: center;
@@ -119,7 +119,7 @@ height: 100vh;
 	grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
 	grid-row-gap: 2vw;
 	grid-column-gap: 2vw;
-	padding: 0 9vw 10vw 9vw;
+	padding: 0 9vw 8vw 9vw;
 }
 .gc-icons img {
 	width: 10vw;
@@ -136,13 +136,13 @@ height: 100vh;
 }
 #gc-new-logo {
 	width: 60vw;
-	padding: 0 0 14vw 0;
+	padding: 0 0 12vw 0;
 }
 .wireframes {
 	background-color: #959595;
 }
 .gap-two {
-	height: 4em;
+	height: 5em;
 }
 .wireframes p {
 	padding: 0 10vw;
@@ -237,21 +237,21 @@ main p {
 }
 .play-redesign {
 	align-self: flex-end;
-	padding: 6vw 0 8em 0;
+	padding: 6vw 0 9em 0;
 }
 #play-redesign {
 	width: 30vw;
 }
 .play-original {
 	align-self: flex-end;
-	padding: 6vw 0 8em 0;
+	padding: 6vw 0 9em 0;
 }
 #play-original {
 	width: 20vw;
 }
 .play-text {
 	text-align: right;
-	padding: 7vw 0 8em 0;
+	padding: 7vw 0 9em 0;
 }
 .next {
 	height: 10em;
