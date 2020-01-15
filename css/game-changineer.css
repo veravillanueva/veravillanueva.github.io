@@ -1,2 +1,285 @@
 /* CSS Document */
 
+body {
+	background-color: #000000;
+	margin: 0;
+}
+nav ul {
+	list-style: none;
+	position: absolute;
+	right: 0;
+	padding: 0.5em 2em 0.5em 0;
+}
+nav ul li {
+	display: inline;
+	padding: 0 1em 0 1em;
+}
+nav ul li a {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+	color:#FFFFFF;
+}
+nav ul li a:hover {
+	color: #000000;	
+}
+h2, h3 {
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 0;
+	color: #F95D9C;
+}
+h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+.caption {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 0;
+	color: #7D7D7D;
+	padding: 0 0 0.5vw 0;
+}
+.gray-ten {
+	color: #EBEBEB;
+}
+.gray-twenty {
+	color: #D7D7D7;
+}
+.gray-thirty {
+	color: #C2C2C2;
+}
+.white-text {
+	color:#FFFFFF
+}
+.center {
+	display: block;
+	text-align: center;
+}
+.middle {
+	width: 50vw;
+	padding: 0 25vw;
+}
+.cover {
+background-color: #F95D9C;
+height: 100vh;
+}
+#cover {
+	height: 100vh;
+}
+.overview {
+	align-self: center;
+	padding: 18vw 0 19vw 0;
+}
+.goal {
+	background-color: #363636;
+	padding: 9.5vw 0 10vw 0;
+}
+.primary-user {
+	padding: 0 0 2em 0;
+}
+.graphics {
+	background-color: #FFFFFF;
+}
+.graphics p {
+	color: #7D7D7D;
+	padding: 0;
+}
+.gap-one {
+	height: 7vw;
+}
+.graphics-text-one {
+	text-align: center;
+}
+.gc-illustrations {
+	display: grid;
+	grid-template-columns: 20vw 20vw 20vw;
+	grid-column-gap: 4vw;
+	padding: 5vw 14vw 9vw 14vw;
+} 
+.gc-illustrations img{
+	width: 20vw;
+}
+.gc-icons {
+	display: grid;
+	grid-template-rows: 10vw 10vw 10vw 10vw;
+	grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
+	grid-row-gap: 2vw;
+	grid-column-gap: 2vw;
+	padding: 0 9vw 10vw 9vw;
+}
+.gc-icons img {
+	width: 10vw;
+}
+.graphics-text-two {
+	text-align: center;
+}
+#gc-old-logo {
+	width: 60vw;
+	padding: 0 0 4vw 0;
+}
+.graphics-text-three {
+	text-align: center;
+}
+#gc-new-logo {
+	width: 60vw;
+	padding: 0 0 14vw 0;
+}
+.wireframes {
+	background-color: #959595;
+}
+.gap-two {
+	height: 4em;
+}
+.wireframes p {
+	padding: 0 10vw;
+}
+#wireframes {
+	width: 80vw;
+	padding: 0 0 6em 0;
+}
+main h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+main p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+	line-height: 1.8em; 
+}
+.home {
+	background-color: #363636;
+	display: grid;
+	grid-template-columns: 26vw 20vw 30vw;
+	grid-column-gap: 4vw;
+	padding: 0 8vw;
+}
+.home-text {
+	padding: 7vw 6vw 9vw 0;
+}
+.home-original {
+	padding: 6vw 0 9vw 0;
+}
+#home-original {
+	width: 20vw;
+}
+.home-redesign {
+	padding: 6vw 0 9vw 0vw;
+}
+#home-redesign {
+	width: 30vw;
+}
+.learn {
+	background-color: #252525;
+	display: grid;
+	grid-template-columns: 30vw 20vw 26vw;
+	grid-column-gap: 4vw;
+	padding: 0 8vw;
+}
+.learn-original {
+	align-self: flex-end;
+	padding: 6vw 0 9vw 0;
+}
+#learn-original {
+	width: 20vw;
+}
+.learn-redesign {
+	align-self: flex-end;
+	padding: 6vw 0 9vw 0;
+}
+#learn-redesign {
+	width: 30vw;
+}
+.learn-text {
+	text-align: right;
+	padding: 7vw 0 9vw 0;
+}
+.create {
+	background-color: #363636;
+	display: grid;
+	grid-template-columns: 40vw 40vw;
+	grid-column-gap: 4vw;
+	padding: 0 8vw;
+}
+.create-text {
+	padding: 7vw 6vw 9vw 0;
+}
+.create-images{
+	padding: 6vw 0 9vw 0;
+}
+#create-original {
+	width: 30vw;
+	padding: 0 0 3vw 0;
+}
+#create-redesign {
+	width:40vw;
+}
+.play {
+	background-color: #252525;
+	display: grid;
+	grid-template-columns: 30vw 20vw 26vw;
+	grid-column-gap: 4vw;
+	padding: 0 8vw;
+}
+.play-redesign {
+	align-self: flex-end;
+	padding: 6vw 0 8em 0;
+}
+#play-redesign {
+	width: 30vw;
+}
+.play-original {
+	align-self: flex-end;
+	padding: 6vw 0 8em 0;
+}
+#play-original {
+	width: 20vw;
+}
+.play-text {
+	text-align: right;
+	padding: 7vw 0 8em 0;
+}
+.next {
+	height: 10em;
+	display: grid;
+	grid-template-columns: 50vw 50vw;
+}
+.up-next {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	align-self: center;
+	color: #7D7D7D;
+	padding-left: 10vw;
+}
+#other-work {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-align: right;
+	align-self: center;
+	justify-self: right;
+	color: #00A453;
+	padding-right: 10vw;
+}
+#other-work:hover {
+	color: #00cc66;
+}
+footer {
+	height: 7em;
+	background-color: #252525;
+}

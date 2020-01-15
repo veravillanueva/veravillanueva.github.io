@@ -23,7 +23,7 @@ nav ul li a {
 nav ul li a:hover {
 	color: #000000;	
 }
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
 	font-weight: normal;
 	padding: 0;
 	margin: 0;
@@ -65,9 +65,6 @@ p {
 .gray-twenty {
 	color: #D7D7D7;
 }
-.gray-thirty {
-	color: #C2C2C2;
-}
 .white-text {
 	color:#FFFFFF
 }
@@ -95,11 +92,16 @@ height: 100vh;
 .language-options {
 	background-color: #252525;
 }
+.language-options h3 {
+	padding: 3em 0 2.5em 0;
+}
 #language-options-one {
 	width: 71vw;
+	padding: 1.5em 0 6em 0;
 }
 #language-options-two {
 	width: 41vw;
+	padding: 0.5em 0 7em 0;
 }
 .audio {
 	background-color: #363636;
@@ -108,7 +110,7 @@ height: 100vh;
 	grid-template-columns: 40vw 60vw;
 }
 .audio-text {
-	padding: 0 0 0 10vw;
+	padding: 5em 0 0 10vw;
 }
 #audio {
 	height: 103vh;
@@ -123,7 +125,7 @@ height: 100vh;
 .permanent-collection-text {
 	text-align: right;
 	justify-self: right;
-	padding: 0 10vw 0 0;
+	padding: 5.5em 10vw 0 0;
 }
 #permanent-collection {
 	align-self: center;
@@ -133,14 +135,22 @@ height: 100vh;
 .special-exhibitions {
 	background-color: #363636;
 }
+.special-exhibitions h3 {
+	padding: 3em 0 2.5em 0;
+}
 #special-exhibtions-one {
 	width: 56vw;
+	padding: 1.5em 0 5.5em 0;
 }
 #special-exhibitions-two {
 	width: 28vw;
+	padding: 1.5em 0 7em 0;
 }
 .revised-search-interface {
 	background-color: #252525;
+}
+.revised-search-interface h3 {
+	padding: 4em 0 2em 0;
 }
 #search {
 	width: 71vw;
