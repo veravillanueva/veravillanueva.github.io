@@ -82,11 +82,11 @@ p {
 }
 .overview {
 	align-self: center;
-	padding: 18vw 0 19vw 0;
+	padding: 9em 0 9.5em 0;
 }
 .goal {
 	background-color: #363636;
-	padding: 9.5vw 0 10vw 0;
+	padding: 9vw 0 9.5vw 0;
 }
 .primary-user {
 	padding: 0 0 2em 0;
@@ -96,6 +96,7 @@ p {
 }
 .graphics p {
 	color: #7D7D7D;
+	font-size: 1.1em;
 	padding: 0;
 }
 .gap-one {
@@ -119,7 +120,7 @@ p {
 	grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
 	grid-row-gap: 2vw;
 	grid-column-gap: 2vw;
-	padding: 0 9vw 7vw 9vw;
+	padding: 0 9vw 10vw 9vw;
 }
 .gc-icons img {
 	width: 10vw;
@@ -136,7 +137,7 @@ p {
 }
 #gc-new-logo {
 	width: 60vw;
-	padding: 0 0 12vw 0;
+	padding: 0 0 15vw 0;
 }
 .wireframes {
 	background-color: #959595;
@@ -145,6 +146,7 @@ p {
 	height: 5em;
 }
 .wireframes p {
+	font-size: 1.1em;
 	padding: 0 11vw;
 }
 #wireframes {

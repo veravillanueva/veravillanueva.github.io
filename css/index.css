@@ -140,6 +140,7 @@ h4 {
 #profile {
 	border-radius: 50%;
 	height: 35vw;
+	align-self: flex-start;
 }
 .about p {
 	font-family: 'Libre Baskerville', serif;
@@ -179,16 +180,6 @@ footer p{
 	margin: 0 6em 2vw 0;
 }
 @media (max-width: 800px) {
-	.home {
-	display: grid;
-	grid-template-columns: 100vw;
-	}
-header {
-	justify-self: center;
-	align-self: center;
-	}
-}
-@media (max-width: 768px) {
 	.home {
 	display: grid;
 	grid-template-columns: 100vw;

@@ -120,6 +120,9 @@ p {
 	display: grid;
 	grid-template-columns: 65vw 35vw;
 }
+.permanent-collection-hidden{
+	display: none;
+}
 .permanent-collection-text {
 	text-align: right;
 	justify-self: right;
@@ -205,5 +208,49 @@ footer p{
 	#cover {
 		height: 72vw;
 		width: 90vw;
+	}
+	.audio {
+		display: initial;
+		height: auto;
+	}
+	.audio-background {
+		background-color: #363636;
+	}
+	.audio-text {
+		width: 50vw;
+		padding: 0 25vw;
+	}
+	.audio-text h3 {
+		padding: 3em 0 0 0;
+	}
+	#audio {
+		width: 28vw;
+		height: auto;
+		padding: 1.5em 0 7em 36vw;	
+	}
+	.permanent-collection {
+		display: initial;
+		height: auto;
+	}
+	.permanent-collection-background {
+		background-color: #252525;
+	}
+	.permanent-collection-text {
+		display: none;
+	}
+	.permanent-collection-hidden {
+		display: initial;
+	}
+	.permanent-collection-hidden-text{
+		width: 50vw;
+		padding: 0 25vw;
+	}
+	.permanent-collection-hidden h3 {
+		padding: 3em 0 0 0;
+	}
+	#permanent-collection {
+		width: 42vw;
+		height: auto;
+		padding: 0.5em 0 7em 29vw;	
 	}
 }
