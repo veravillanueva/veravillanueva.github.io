@@ -125,11 +125,10 @@ h3 {
 	padding: 0 5vw 0 5vh;
 }
 .about {
-	height: 100vh;
 	display: grid;
 	grid-template-columns: 35vw 38vw;
 	grid-column-gap: 7vw;
-	padding: 0 10vw;
+	padding: 10vw 10vw;
 	align-items: center;
 }
 h4 {
