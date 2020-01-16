@@ -77,13 +77,11 @@ p {
 	padding: 0 25vw;
 }
 .cover {
-background-color: #00AFEC;
-height: 100vh;
+	background-color: #00AFEC;
+	height: 100vh;
 }
 #yuag-cover {
 	height: 100vh;
-}
-.overview {
 }
 .overview-text {
 	align-self: center;

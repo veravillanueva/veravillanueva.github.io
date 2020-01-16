@@ -4,9 +4,6 @@ body {
 	background-color: #000000;
 	margin: 0;
 }
-.home {
-	height: 100vh;
-}
 nav {
 	position: fixed;
 	top: 0;
@@ -36,26 +33,28 @@ h1, h2, h3, h4 {
 	padding: 0;
 	margin: 0;
 }
+.home {
+	display: grid;
+	grid-template-columns: 100vw;
+	padding: 22vw 0;
+}
 header {
 	color: #FFFFFF;
-	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translateX(-50%) translateY(-50%);
+	justify-self: center;
+	align-self:center;
 }
 h1 {
 	font-family: 'Libre Baskerville', serif;
-	font-size: 4em;
+	font-size: 4.5em;
 	text-align: center;
 	line-height: 1em;
 	letter-spacing: 0.01em;
-	padding: 0.1em 0.2em 0 0.2em;
 }
 h2 {
 	font-family: 'Lato', sans-serif;
-	font-size: 1em;
+	font-size: 1.2em;
 	text-align: center;
-	line-height: 3em;
+	line-height: 2.5em;
 	letter-spacing: 0.1em;
 }
 .projects {
