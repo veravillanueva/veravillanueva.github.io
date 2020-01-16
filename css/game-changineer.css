@@ -282,4 +282,14 @@ main p {
 footer {
 	height: 7em;
 	background-color: #252525;
+	display: grid;
+	grid-template-row: 4em;
+}
+footer p{
+	font-family: 'Lato', sans-serif;
+	font-size: 0.5em;
+	justify-self: center;
+	align-self: flex-end;
+	color: #7D7D7D;
+	margin: 0 0 1vw 0;
 }
