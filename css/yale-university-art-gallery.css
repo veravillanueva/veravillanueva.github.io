@@ -80,7 +80,7 @@ p {
 	background-color: #00AFEC;
 	height: 100vh;
 }
-#yuag-cover {
+#cover {
 	height: 100vh;
 }
 .overview-text {
@@ -193,4 +193,20 @@ footer p{
 	align-self: flex-end;
 	color: #7D7D7D;
 	margin: 0 0 1vw 0;
+}
+@media (max-width: 768px) {
+	nav ul {
+		z-index: 2;
+	}
+	.cover {
+		display: grid;
+		grid-template-columns: 100vw;
+		z-index: 1;
+	}
+	#cover {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+	}
 }

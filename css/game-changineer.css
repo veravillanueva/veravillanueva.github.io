@@ -293,3 +293,16 @@ footer p{
 	color: #7D7D7D;
 	margin: 0 0 1vw 0;
 }
+@media (max-width: 768px) {
+	.cover {
+		height: auto;
+		display: grid;
+		grid-template-columns: 100vw;
+	}
+#cover {
+	width: 90vw;
+	height: 72vw;
+	align-self: center;
+	justify-self: center;
+}
+}
