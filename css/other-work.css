@@ -1,2 +1,90 @@
 /* CSS Document */
 
+body {
+	background-color: #252525;
+	margin: 0;
+}
+nav ul {
+	list-style: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0.5em 2em 0.5em 0;
+}
+nav ul li {
+	display: inline;
+	padding: 0 1em 0 1em;
+}
+nav ul li a {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+	color: #C2C2C2;
+}
+nav ul li a:hover {
+	color: #FFFFFF;
+}
+h1, h2, h3, h4 {
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 4em;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 1em 0 0 5vw;
+}
+.graphic-design, .illustration, .fine-art {
+	padding: 4.5vw 0 0 0;
+}
+.menu {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #7D7D7D;
+	padding: 0 0 0 5vw;
+}
+.menu a {
+	text-decoration: none;
+	color: #7D7D7D;
+}
+.menu a:hover {
+	color: #C2C2C2;
+}
+.work {
+	display: grid;
+	grid-template-columns: 28vw 28vw 28vw;
+	grid-column-gap: 3vw;
+	padding: 2.4vw 5vw 3vw 5vw;
+}
+.work img{
+	width: 28vw;
+}
+.work h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	font-weight: bolder;
+	text-align: right;
+	line-height: 1.2em;
+	color: #C2C2C2;
+	margin: 0;
+	padding: 1vw 0 0.4vw 8vw;
+}
+.work p{
+	font-family: 'Lato', sans-serif;
+	font-size: 0.6em;
+	line-height: 1.2em;
+	text-align: right;
+	color: #C2C2C2;
+	margin: 0;
+	padding: 0 0 4vw 8vw;
+}
+hr {
+	margin: 0 5vw;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
