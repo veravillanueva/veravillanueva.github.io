@@ -181,10 +181,15 @@ footer p{
 }
 @media (max-width: 800px) {
 	.home {
+	height: 75vw;
 	display: grid;
 	grid-template-columns: 100vw;
 	}
 header {
+	position: static;
+	top: 0;
+  	left: 0;
+  	transform: translateX(0) translateY(0);
 	justify-self: center;
 	align-self: center;
 	}
