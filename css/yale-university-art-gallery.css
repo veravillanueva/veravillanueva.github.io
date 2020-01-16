@@ -194,11 +194,16 @@ footer p{
 	color: #7D7D7D;
 	margin: 0 0 1vw 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	nav ul {
 		z-index: 2;
 	}
 	.cover {
+		height: 72vw;
 		z-index: 1;
+	}
+	#cover {
+		height: 72vw;
+		width: 90vw;
 	}
 }
