@@ -34,14 +34,16 @@ h1, h2, h3, h4 {
 	margin: 0;
 }
 .home {
-	height: 100vh;
+		display: grid;
+		grid-template-rows: 75vw;
+		z-index: 1;
 }
 header {
-	color: #FFFFFF;
-	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translateX(-50%) translateY(-50%);
+		color: #FFFFFF;
+		position: static;
+		justify-self: center;
+		align-self: center;
+		padding: 4em 0 0 0;
 }
 h1 {
 	font-family: 'Libre Baskerville', serif;
@@ -179,6 +181,19 @@ footer p{
 	color: #7D7D7D;
 	margin: 0 6em 2vw 0;
 }
+@media (min-width: 850px) {
+	.home {
+		height: 100vh;
+	}
+	header {
+		color: #FFFFFF;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		padding: 0;
+	}
+}
 @media (max-width: 850px) {
 	h1 {
 		font-size: 8.6vw;
@@ -186,22 +201,8 @@ footer p{
 	h2 {
 		font-size: 2.4vw;
 	}
-	.home {
-		height: auto;
-		display: grid;
-		grid-template-rows: 75vw;
-		z-index: 1;
-	}
 	nav {
 		z-index: 2;
-	}
-	header {
-		position: static;
-		top: 0;
-		left: 0;
-		transform: translateX(0) translateY(0);
-		justify-self: center;
-		align-self: center;
 	}
 	.projects h3 {
 		font-size: 5vw;
