@@ -104,7 +104,6 @@ p {
 }
 .audio {
 	background-color: #363636;
-	height: 103vh;
 	display: grid;
 	grid-template-columns: 40vw 60vw;
 }
@@ -112,12 +111,11 @@ p {
 	padding: 5em 0 0 10vw;
 }
 #audio {
-	height: 103vh;
+	width: 36vw;
 	justify-self: center;
 }
 .permanent-collection {
 	background-color: #252525;
-	height: 110vh;
 	display: grid;
 	grid-template-columns: 65vw 35vw;
 }
@@ -132,7 +130,8 @@ p {
 #permanent-collection {
 	align-self: center;
 	justify-self: center;
-	width: 51vw;
+	width: 53vw;
+	padding: 4.5em 0; 
 }
 .special-exhibitions {
 	background-color: #363636;
