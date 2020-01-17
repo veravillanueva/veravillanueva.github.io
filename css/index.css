@@ -35,6 +35,7 @@ h1, h2, h3, h4 {
 }
 .home {
 	height: 100vh;
+	max-height: 75vw;
 }
 header {
 	color: #FFFFFF;
