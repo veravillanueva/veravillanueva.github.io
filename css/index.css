@@ -179,12 +179,12 @@ footer p{
 	color: #7D7D7D;
 	margin: 0 6em 2vw 0;
 }
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
 	h1 {
 		font-size: 8.6vw;
 	}
 	h2 {
-		font-size: 2.3vw;
+		font-size: 2.4vw;
 	}
 	.home {
 		height: 75vw;
@@ -213,7 +213,7 @@ footer p{
 		display: none;
 	}
 	.about p {
-		font-size: 2vw
+		font-size: 2.4vw
 	}
 	.about h4 {
 		font-size: 1.5vw
