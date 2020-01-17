@@ -58,7 +58,7 @@ h2 {
 	letter-spacing: 0.1em;
 }
 .projects {
-	padding: 4vw 5vw;
+	padding: 4em 5vw 8vw 5vw;
 	display: grid;
 	grid-template-rows: 30vw 30vw 30vw;
 	grid-row-gap: 3vw
@@ -167,9 +167,9 @@ h4 {
 	color: #FFFFFF;
 }
 footer {
-	height: 4em;
+	height: 8vw;
 	display: grid;
-	grid-template-row: 4em;
+	grid-template-row: 8vw;
 }
 footer p{
 	font-family: 'Lato', sans-serif;
