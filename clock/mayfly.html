@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mayfly</title>
+<link rel="stylesheet" href="mayfly.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="mayfly">
+		<img id="gray-mayfly" src="gray-mayfly.png" alt="gray-mayfly">
+		<img id="green-mayfly" src="green-mayfly.png" alt="green-mayfly">
+	</div>
+	<div class="key">
+		<div id="box"></div>
+		<text id="key">&nbsp;&nbsp;= time left in the day</text>
+	</div>
+		<p id="countdown"></p>
+	
+	
+	<script>
+		function mayfly() {
+			let currentTime = new Date();
+			let hoursLeft = 23 - currentTime.getHours();
+			let minutesLeft = 59 - currentTime.getMinutes();
+			let totalMinutesLeft = 60*hoursLeft + minutesLeft;
+			let h = 500*(totalMinutesLeft/1440);
+			
+			$('#green-mayfly').css("clip", "rect(0px,500px," + h + "px,0px)");
+		}
+		
+		function setupMayfly() {
+			mayfly();
+			setInterval(mayfly, 1000);
+		}
+		
+		function hoursText(hours) {
+				if (hours > 1) {
+					return hours + " hours, ";
+				} else if (hours > 0) {
+					return "1 hour, ";
+				} else {
+					return "";
+				}
+		}
+		
+		function minutesText(minutes) {
+				if (minutes > 1) {
+					return minutes + " minutes ";
+				} else if (minutes > 0) {
+					return "1 minute ";
+				} else {
+					return "";
+				}
+		}
+		
+		function secondsText(seconds) {
+				if (seconds > 1) {
+					return "and " + seconds + " seconds left to live.";
+				} else if (seconds > 0) {
+					return "and 1 second left to live.";
+				} else {
+					return "left to live.";
+				}
+		}
+		
+		console.log(secondsText(0))
+		
+		function countdown() {
+			let currentTime = new Date();
+			let hoursLeft = hoursText(23 - currentTime.getHours());
+			let minutesLeft = minutesText(59 - currentTime.getMinutes());
+			let secondsLeft = secondsText(59 - currentTime.getSeconds());
+				
+			let countdownString = hoursLeft + minutesLeft + secondsLeft;
+			
+			let hours = currentTime.getHours();
+			let minutes = currentTime.getMinutes();
+			let totalMinutes = 60*hours + minutes;
+			let mayflyAge = Math.round(80*(totalMinutes/1440));
+			
+			
+			$('#countdown').text("The lifespan of a mayfly is 24 hours. If you were a mayfly born at midnight, you would be " + mayflyAge + " in human years. You have " + countdownString);
+			}
+			
+		function setupCountdown() {
+			countdown();
+			setInterval(countdown, 1000);
+			}
+			
+			$(document).ready(function() {
+				setupMayfly();
+				setupCountdown();
+			})	
+	</script>
+</body>
+</html>

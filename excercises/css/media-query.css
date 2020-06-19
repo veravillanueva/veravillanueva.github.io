@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+img {
+	position: absolute;
+	height: 500px;
+}
+@media (max-width: 1010px) {
+	#one {
+		display: none;
+	}
+}
+@media (max-width: 870px) {
+	#two {
+		display: none;
+	}
+}
+@media (max-width: 730px) {
+	#three {
+		display: none;
+	}
+}
+@media (max-width: 590px) {
+	#four {
+		display: none;
+	}
+}
+@media (max-width: 445px) {
+	#five {
+		display: none;
+	}
+}
+@media (max-width: 445px) {
+	#six {
+		width: 100vw;
+	}
+}

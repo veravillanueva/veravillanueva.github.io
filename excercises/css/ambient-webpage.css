@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	overflow: hidden;
+	margin: 0;
+}
+#sky {
+	height: 100vh;
+	width: 100vw;
+	animation-name: sky;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+}
+@keyframes sky {
+	0% {
+    background-color: black;
+	}
+	20% {
+	background-color: #f98b96;
+	}
+	60% {
+    background-color: #def3fd;
+	}
+	85% {
+	background-color: #1f538c;
+	}
+	98% {
+	background-color: #a0410d;
+	}
+	100% {
+    background-color: black;
+	}
+}
+#sun {
+	height: 10vh;
+    width: 10vh;
+	top: 45vh;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+	animation-name: sun;
+	animation-duration: 30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes sun {
+  0% {
+    left: -10vw;
+  }
+  100% {
+    left: 100vw;
+  }
+}
